@@ -3,6 +3,7 @@ echo json_encode([
     "id" => "http://localhost:9001/platform/nrps.php",
     "members" => [
         [
+            "Email" => "vibhojwa@microsoft.com",
             "status" => "Active",
             "context_id" => "2923-abc",
             "name" => "Trudie Senaida",
@@ -15,6 +16,7 @@ echo json_encode([
             "message" => []
         ],
         [
+            "Email" => "vibhojwa@microsoft.com",
             "status" => "Active",
             "context_id" => "2923-abc",
             "name" => "Marget Elke",
@@ -25,7 +27,20 @@ echo json_encode([
                 "Instructor"
             ],
             "message" => []
-        ]
+        ],
+        [
+            "Email" => "vibhojwa@microsoft.com",
+            "status" => "Active",
+            "context_id" => "2923-abc",
+            "name" => "Trudie Senaida",
+            "given_name" => "Trudie",
+            "family_name" => "Senaida",
+            "user_id" => "0ae836b9-7fc9-4060-006f-27b2066ac545",
+            "roles" => [
+                "Instructor"
+            ],
+            "message" => []
+        ],
     ]
 
 ]);
